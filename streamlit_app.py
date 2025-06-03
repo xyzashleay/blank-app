@@ -89,7 +89,7 @@ def welcome_page():
             background-color: #e0e7ff;
         }
         .feature-card {
-            background-color: #89261c;
+            background-color: #cc7676;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
