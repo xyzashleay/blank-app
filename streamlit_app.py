@@ -73,7 +73,7 @@ def welcome_page():
         """
         <style>
         .stApp {
-            background-color: #530808;
+            background-color: #cc7676;
             color: white;
         }
         .stButton button {
