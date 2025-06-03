@@ -73,7 +73,7 @@ def welcome_page():
         """
         <style>
         .stApp {
-            background-color: #89261c;
+            background-color: #530808;
             color: white;
         }
         .stButton button {
@@ -89,7 +89,7 @@ def welcome_page():
             background-color: #e0e7ff;
         }
         .feature-card {
-            background-color: #530808;
+            background-color: #89261c;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
