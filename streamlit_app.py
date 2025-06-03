@@ -78,7 +78,7 @@ def welcome_page():
         }
         .stButton button {
             background-color: white;
-            color: #530808;
+            color: #2563eb;
             font-weight: bold;
             padding: 10px 20px;
             border-radius: 5px;
@@ -89,7 +89,7 @@ def welcome_page():
             background-color: #e0e7ff;
         }
         .feature-card {
-            background-color: #3b82f6;
+            background-color: #530808;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
