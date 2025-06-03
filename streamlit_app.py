@@ -73,8 +73,8 @@ def welcome_page():
         """
         <style>
         .stApp {
-            background-color: #cc7676;
-            color: white;
+    background: linear-gradient(90deg, #e65d5d, #6c0000);
+    color: white;
         }
         .stButton button {
             background-color: white;
@@ -89,18 +89,16 @@ def welcome_page():
             background-color: #e0e7ff;
         }
         .feature-card {
-        background: linear-gradient(90deg, #e65d5d, #6c0000);
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        height: 150px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        font-size: 20px;
+            background-color: #89261c;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            height: 150px; /* Fixed height for cards */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .feature-card h3 {
             color: white;
