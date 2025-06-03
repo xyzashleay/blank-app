@@ -73,12 +73,12 @@ def welcome_page():
         """
         <style>
         .stApp {
-    background: linear-gradient(90deg, #e65d5d, #6c0000);
+    background: linear-gradient(90deg, #ad0000, #441f1f);
     color: white;
         }
         .stButton button {
             background-color: white;
-            color: #2563eb;
+            color: #000000;
             font-weight: bold;
             padding: 10px 20px;
             border-radius: 5px;
