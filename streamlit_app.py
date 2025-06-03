@@ -89,7 +89,7 @@ def welcome_page():
             background-color: #e0e7ff;
         }
         .feature-card {
-            background-color: #530808;
+            background-color: #cc7676;
             padding: 20px;
             border-radius: 10px;
             text-align: center;
@@ -101,7 +101,7 @@ def welcome_page():
             align-items: center;
         }
         .feature-card h3 {
-            color: white;
+            color: #530808;
             margin-bottom: 10px;
         }
         .feature-card p {
