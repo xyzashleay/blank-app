@@ -114,11 +114,11 @@ def welcome_page():
         unsafe_allow_html=True
     )
 
-    st.markdown("<h1 style='text-align: center; color: white; font-size: 60px;'>DATABASE ALUMNI S1 MATEMATIKA FMIPA UI</h1>", unsafe_allow_html=True)
-    st.markdown("<h2 style='text-align: center; color: white; font-size: 50px;'>Departemen Matematika FMIPA UI</h2>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center; color: white; font-size: 50px;'>DATABASE ALUMNI S1</h1>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: white; font-size: 50px;'>DEPARTEMEN MATEMATIKA FMIPA UI</h2>", unsafe_allow_html=True)
     st.markdown(
         """
-        <p style='text-align: center; color: white; font-size: 18px;'>
+        <p style='text-align: center; color: white; font-size: 25px;'>
         Sistem informasi terintegrasi untuk mengelola data alumni S1<br>Matematika, Statistika, dan Ilmu Aktuaria FMIPA UI
         </p>
         """,
