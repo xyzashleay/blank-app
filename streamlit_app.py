@@ -4,7 +4,7 @@ import os
 from collections import Counter
 
 # --- Configuration ---
-FILE_PATH = "/workspaces/blank-app/alumni_data.xlsx"
+FILE_PATH = "/workspaces/blank-app/alumni_data (1).xlsx"
 SHEET_NAME = 'Data ' # Ensure this matches your Excel sheet name
 
 # --- Helper Functions ---
