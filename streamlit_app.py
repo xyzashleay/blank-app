@@ -7,29 +7,6 @@ from collections import Counter
 FILE_PATH = "alumni_data (1).xlsx"
 SHEET_NAME = 'Data ' # Ensure this matches your Excel sheet name
 
-# --- CSS Kustom untuk Font ---
-st.markdown("""
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
-html, body, [class*="st-"] {
-    font-family: 'Roboto', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700; # Contoh: membuat heading lebih bold
-}
-
-/* Contoh spesifik untuk elemen tertentu */
-.st-emotion-cache-10qzykd.e1nzilvr1 { /* Ini adalah class untuk bagian utama aplikasi */
-    font-family: 'Open Sans', sans-serif;
-}
-
-/* Anda bisa menarget elemen lain dengan menginspeksi elemen di browser */
-</style>
-""", unsafe_allow_html=True)
-
 # --- Helper Functions ---
 def format_currency(amount):
     """Format currency from number to Rupiah format"""
