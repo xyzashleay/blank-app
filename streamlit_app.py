@@ -311,10 +311,10 @@ def statistics_page(alumni_data):
         st.metric(label="Total Alumni", value=len(alumni_data))
     with col2:
         unique_programs = alumni_data['Program Studi'].nunique()
-        st.metric(label="Program Studi Unik", value=unique_programs)
+        st.metric(label="Program Studi", value=unique_programs)
     with col3:
         unique_companies = alumni_data['Nama Perusahaan'].nunique()
-        st.metric(label="Perusahaan Unik", value=unique_companies)
+        st.metric(label="Perusahaan", value=unique_companies)
 
     st.markdown("---")
 
