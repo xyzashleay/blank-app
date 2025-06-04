@@ -109,6 +109,14 @@ def welcome_page():
             font-size: 14px;
             line-height: 1.5;
         }
+         .feature-card-centered {
+        background-color: #f8fafc;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        border-left: 4px solid #2563eb;
+        margin: 1rem 0;
+        text-align: center;
+    }
         </style>
         """,
         unsafe_allow_html=True
@@ -132,27 +140,27 @@ def welcome_page():
     with col1:
         st.markdown(
         """
-        <div class="feature-card">
-            <h3 style="text-align: center;">Data Alumni</h3>
-            <p style="text-align: center;">Pencarian dan pengelolaan<br>data lengkap alumni</p>
+        <div class="feature-card-centered">
+            <h3>Data Alumni</h3>
+            <p>Pencarian dan pengelolaan<br>data lengkap alumni</p>
         </div>
         """, unsafe_allow_html=True
     )
     with col2:
         st.markdown(
         """
-        <div class="feature-card">
-            <h3 style="text-align: center;">Perusahaan</h3>
-            <p style="text-align: center;">Analisis distribusi alumni<br>di berbagai perusahaan</p>
+        <div class="feature-card-centered">
+            <h3>Perusahaan</h3>
+            <p>Analisis distribusi alumni<br>di berbagai perusahaan</p>
         </div>
         """, unsafe_allow_html=True
     )
     with col3:
         st.markdown(
         """
-        <div class="feature-card">
-            <h3 style="text-align: center;">Statistik</h3>
-            <p style="text-align: center;">Laporan dan analisis<br>data karir alumni</p>
+        <div class="feature-card-centered">
+            <h3>Statistik</h3>
+            <p>Laporan dan analisis<br>data karir alumni</p>
         </div>
         """, unsafe_allow_html=True
     )
