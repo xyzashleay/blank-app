@@ -133,7 +133,7 @@ def welcome_page():
         st.markdown(
             """
             <div class="feature-card">
-                <h3>  Data Alumni</h3>
+                <h3>Data Alumni</h3>
                 <p>Pencarian dan pengelolaan<br>data lengkap alumni</p>
             </div>
             """, unsafe_allow_html=True
@@ -142,7 +142,7 @@ def welcome_page():
         st.markdown(
             """
             <div class="feature-card">
-                <h3>  Perusahaan</h3>
+                <h3>Perusahaan</h3>
                 <p>Analisis distribusi alumni<br>di berbagai perusahaan</p>
             </div>
             """, unsafe_allow_html=True
@@ -151,7 +151,7 @@ def welcome_page():
         st.markdown(
             """
             <div class="feature-card">
-                <h3>   Statistik</h3>
+                <h3>Statistik</h3>
                 <p>Laporan dan analisis<br>data karir alumni</p>
             </div>
             """, unsafe_allow_html=True
